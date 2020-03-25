@@ -8,14 +8,15 @@ O mapa editado sobre [OpenStreetMap](https://www.openstreetmap.org/#map=4/-15.13
 
 O processo de edição do mapa se dá a partir da autenticação de um agente `Nominatim()` para encontrar `addressdetails` de cada endereço por meio de `geocode()` verificando a `latitude` e a `longitude` de cada um listado em TXT com a finalidade de indicar os respectivos nomes dos subreddits presentes em outra lista paralela para marcar cada um deles com um `Icon()` e adicionar um `Popup()` com um link para determinado subreddit antes de salvar a tarefa com `save()`.
 
-As informações apresentadas no mapa são: a geolocalização e o link de cada subreddit listado.
+As informações apresentadas no mapa são: a geolocalização de cada local e o link de cada subreddit listado.
 
 ## Sumário
 
 * [Instalação](#Instalação)
 * [Instruções](#Instruções)
+* [Dependências](#Dependências)
 * [Colaboração](#Colaboração)
-* [Demonstração](#Demonstração)
+* [Mapa](#Mapa)
 * [Referências](#Referências)
 
 ## Instalação

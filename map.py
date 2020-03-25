@@ -1,10 +1,10 @@
-import linecache
 import folium
+import linecache
 import time
 from folium.features import CustomIcon
 from geopy import Nominatim 
-from geopy.exc import GeocoderTimedOut
 from geopy.exc import GeocoderServiceError
+from geopy.exc import GeocoderTimedOut
 
 
 
